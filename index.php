@@ -3,6 +3,9 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="./assets/css/style.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
     <div class="box_login">
@@ -12,11 +15,14 @@
 
         <h1>Faça seu login</h1>
         <form>
-            <input type="email" name="email">
-            <input type="password" name="password">
+            <input type="email" name="email" placeholder="EMAIL">
+            <input type="password" name="password" placeholder="SENHA">
             
             <button class="bnt-login">LOGAR</button>
         </form>
+        <span class="msg_error">
+            <i class="fa fa-exclamation-triangle" style="font-size: 16px; padding-right: 5px;"></i>
+            Tentativa inválida</span>
     </div>
 </body>
 </html>
