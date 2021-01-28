@@ -2,6 +2,7 @@
 <html>
 <head>
     <title></title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/style.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +15,7 @@
         </div>
 
         <h1>Faça seu login</h1>
-        <form>
+        <form method="POST" action="login/check">
             <input type="email" name="email" placeholder="E-MAIL">
             <input type="password" name="password" placeholder="SENHA">
             
@@ -22,7 +23,8 @@
         </form>
         <span class="msg_error">
             <i class="fa fa-exclamation-triangle" style="font-size: 16px; padding-right: 5px;"></i>
-            Tentativa inválida</span>
+            Tentativa inválida
+        </span>
     </div>
 </body>
 </html>
